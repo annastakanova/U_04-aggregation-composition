@@ -29,12 +29,11 @@ public class Text {
         this.title = title;
     }
 
-    public void addTitle(Sentence title) {          ///??????????????
-        this.title.add(title);
+    public void addTitle(List<Sentence> title) {
+        this.setTitle(title);
     }
-
-    public void addSentence(Sentence sentence) {    ///??????????????
-        this.text.add(sentence);
+    public void addSentence(List<Sentence> sentence) {  
+        this.setText(sentence);
     }
 
     @Override
